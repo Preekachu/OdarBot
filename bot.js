@@ -38,9 +38,9 @@ console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.
         dbl.postStats(bot.guilds.size);
     }, 1800000); */
     
-bot.user.setStatus('Online')
+bot.user.setStatus('Do Not Disturb')
 
-bot.user.setActivity(`in ${bot.guilds.size}/200 Servers | !help`);
+bot.user.setActivity(`Preekachu Is Hungry`);
     
     bot.channels.get("521378814467506176").setName(`Servers: ${bot.guilds.size}/100`)
     
